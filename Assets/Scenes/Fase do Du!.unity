@@ -2665,6 +2665,87 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.027139932, y: -0.07695213, z: 0.12493226}
     m_Extent: {x: 0.5641693, y: 0.8028133, z: 0.5380405}
   m_DirtyAABB: 0
+--- !u!1001 &674713480
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1500756185}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 5467607da8a212d4ab1621d1cc27bc71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5467607da8a212d4ab1621d1cc27bc71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5467607da8a212d4ab1621d1cc27bc71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5467607da8a212d4ab1621d1cc27bc71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5467607da8a212d4ab1621d1cc27bc71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9659259
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5467607da8a212d4ab1621d1cc27bc71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5467607da8a212d4ab1621d1cc27bc71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.25881898
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5467607da8a212d4ab1621d1cc27bc71, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5467607da8a212d4ab1621d1cc27bc71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 210
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5467607da8a212d4ab1621d1cc27bc71, type: 3}
+  m_IsPrefabParent: 0
+--- !u!1 &674713481 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 5467607da8a212d4ab1621d1cc27bc71, type: 3}
+  m_PrefabInternal: {fileID: 674713480}
+--- !u!54 &674713482
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 674713481}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &674713483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 674713481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cc144a083d20c40960bda66e7f0dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zumbi11: {fileID: 674713482}
+  velocidadeinicial: 10
+  speed1: 10
+  jump1: 10
+  frente1: 4
 --- !u!1 &675392049
 GameObject:
   m_ObjectHideFlags: 0
