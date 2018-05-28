@@ -6,6 +6,7 @@ TagManager:
   tags:
   - pessoa
   - alien
+  - car
   layers:
   - Default
   - TransparentFX
